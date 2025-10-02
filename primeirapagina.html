@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--Primeiro passo do cabeçalho: definir metadados essenciais!-->
+    <meta charset="utf-8"/>
+    <meta name="view" content="width=device-width, initial-scale=1"/>
+
+    <!--Segundo passo: colocar um titulo na aba.-->
+
+    <link rel="stylesheet" href="primejrapagina.css">
+    <title>Dom Barone</title>
+</head>
+<body>
+    <!--HEADER = topo do site com o que voce quer -->
+    <header class="topo">
+        <h1 classe="marca" id="inicio">⭐Dom Barone</h1>
+
+        <!--menu de navegação (nav)-->
+
+        <nav class="menu" aria-label="navegação principal">
+            <!--ul = tag para criar listas não-ordenadas!-->
+            <ul>
+                <li><a href="#secao-hero">inicio</a></li>
+                <li><a href="#secao-conteucdo">conteudo</a></li>
+                <li><a href="#secao-tabela">tabela</a></li> 
+                <li><a href="#secao-formulario">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- A tag "div" ira nos auxiliar a criar uma seção no corpo de nossa aplicação.-->
+    <div class="container">
+        <!--A tag "section" cria uma seção no nosso site-->
+        <section id="tag-inicio" class="bloco faixa-gradiente">
+            <h2>algo simbolico </h2>
+            <p>texto corpo do site</p>
+
+            <p>
+                <a href="https://www.janeteartes.com/" target="_blank" rel="noopener noreferrer">site</a>
+            </p>
+        </section>
+        <section id="tag-galeria" class="bloco">
+            <h2> <img src="https://www.shutterstock.com/image-photo/men-suits-luxury-clothing-shop-260nw-466587635.jpg" alt=""></h2>
+
+            <figure>
+                <!-- A tag "img" isere imagem atraves de uma fonte ( src) e um texto (alt)-->
+                <img src="OIP.webp" alt="modas">
+                <!-- A tag "figcaption" deixa uma legenda para uma imagem-->
+                 <figcaption>MODAS</figcaption>
+            </figure>
+        </section>
+    </div>
+</body> 
+</html>

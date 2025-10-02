@@ -1,0 +1,18 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family:robot;
+    color: rgb(6, 6, 7);
+    background-color: aliceblue;
+}
+
+.topo{
+    display: flex;  /* alinhar logo e menu lado a lado. */
+    justify-content: space-between; /* justifica todos os elementos */
+    align-items: center; /* centralizar os elementos*/
+    padding: 15px;
+    background-color:rgb(243, 183, 72);
+    border-bottom: 30px solid black;
+    }
